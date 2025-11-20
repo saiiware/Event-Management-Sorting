@@ -49,7 +49,7 @@ int main() {
         scanf("%d", &reservation[i].no_of_guests);
         getchar();
 
-        printf("Enter Month (Enter Fist Letter In Capital): ");
+        printf("Enter Month: ");
         fgets(reservation[i].month, sizeof(reservation[i].month), stdin);
         reservation[i].month[strcspn(reservation[i].month, "\n")] = '\0';
 
